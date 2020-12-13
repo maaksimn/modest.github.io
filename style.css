@@ -325,6 +325,10 @@ body {
     visibility: visible;
 }
 
+.colleague:hover .colleague-photo{
+    opacity: 0.5;
+}
+
 .colleague:hover .colleague-info, .colleague:hover .colleague-info p{
     background-color: #3a454d;
     color: #ffffff;
