@@ -35,7 +35,6 @@ body {
     width: 58.333%;
 }
 .container {
-    display: flex;
     width: 1170px;
     margin: 0 auto;
     padding-left: 15px;
@@ -52,6 +51,10 @@ body {
     width: inherit;
 }
 
+.header .container {
+    display: flex;
+}
+
 .header {
     display: flex;
     height: 80px;
@@ -61,11 +64,7 @@ body {
     top: 0;
     z-index: 10;
 }
-
-.logo {
-    display: flex;
-}
-
+ 
 .menu {
     display: flex;
 }
@@ -164,6 +163,10 @@ body {
     height: 660px;
 }
 
+.welcome-to-our-marketplace .container {
+    display: flex;
+}
+
 .welcome-article h1 {
    color: white;
    font-size: 36px;
@@ -200,7 +203,7 @@ body {
 }
 
 
-.we-are-modest-title h1, .meet-the-team-title h1, .lovely-work-title h1, .what-we-do-title h1, .features-title h1, .stay-in-touch h1 {
+.title h1 {
     display: flex;
     font-size: 36px;
     font-weight: 700px;
@@ -475,15 +478,20 @@ body {
     outline: none;
 }
 
+.show-more:hover {
+    background-color: #23b7a4;
+    border: none;
+}
+
 .lovely-work-show-more {
     width: inherit;
     display: flex;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .what-we-do {
-    height: 900px;
+    height: 800px;
 }
 
 .what-we-do-title h1{
@@ -491,10 +499,6 @@ body {
     margin-bottom: 60px;
 }
 
-.what-we-do-blocks {
-    display: flex;
-    flex-direction: column;
-}
 
 .what-we-do-block {
     width: 263px;
